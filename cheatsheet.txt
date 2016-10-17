@@ -1,0 +1,21 @@
+[command] : what it does
+
+[ls] : 'list' Lists files in the current directory.
+[cd] : 'change directory' Changes to the specified directory
+  [cd ~] : changes to the home directory
+  [cd ..] : changes to the parent directory
+[mkdir] : 'make directory' with specified name
+[rmdir] : 'removes directory'
+[rm] : 'removes file'
+  [rm -r] : removes the file recursively (-r), use to remove directories as well
+  [rm -f] : DO NOT USE forces (-f) the removal of the file
+[pwd] : 'print working directory'
+[touch] : creates and empty file
+[cat] : 'concatenate' if supplied with one argument, prints the contents of the
+        file to the terminal. If supplied with two or more arguments, prints
+        both or more
+[man] : 'manual' shows the manual for a unix command
+  [when in a man page] : to search, type [/search-term]
+                         to go to the next found search-term type [n]
+                         to go to the previous found search-term type [p]
+                         to quit, type [q]
